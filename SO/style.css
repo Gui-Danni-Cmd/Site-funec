@@ -1,0 +1,300 @@
+html{
+    scroll-behavior:smooth;
+}
+body,ul,li,p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    list-style: none;
+    font-family: Arial;
+}
+body{
+    background-color:rgb(255, 255, 255) ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+    display: grid;
+    @REM height: 600px;
+    @REM width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90em;
+    @REM box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+@REM .mobile{
+@REM     @REM align: center;
+@REM     max-width: 25%;
+@REM     @REM margin-left: 10px; 
+@REM     display: flex;
+@REM     margin-left: auto;
+@REM     margin-right: auto;
+@REM     width: 90em;
+@REM }
+
+
+.texto {
+    position: static;
+    display: block;
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    text-align: center;
+    top: 100px;
+    /* margin-top: 15; */
+    /* margin-left: 900px; */
+    /* width: 250px; */
+    /* line-height: 30px; */
+    /* height: 30px; */
+}
+
+@REM .textoh1 {
+@REM     position: static;
+@REM     display: block;
+@REM     background-color: rgba(0,0,0,0.5);
+@REM     color:#fff;
+@REM     text-align: center;
+@REM     top: 100px;
+@REM     /* margin-top: 15; */
+@REM     /* margin-left: 900px; */
+@REM     /* width: 250px; */
+@REM     /* line-height: 30px; */
+@REM     /* height: 30px; */
+@REM }
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 30px;
+    width: 99%;
+    max-width: 100%;
+
+    background: rgb(65, 64, 64);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 10px;
+    @REM width: 90em;
+}
+
+.header-final{
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    width: 99%;
+    height: 100%
+    margin: 10px;
+    max-width: 100%;
+
+    @REM min-height: 100%;
+    
+    background: rgb(65, 64, 64);
+    @REM display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-final footer{
+    @REM position: relative;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    @REM left: 10px;
+    font-size: 0.9rem;
+    width: 99%;
+}
+.header-final div{
+    align-top: 10px;
+    text-align: center;
+    display: block;
+    @REM padding: 50px;
+    color: white;
+    @REM margin: 10px;
+    @REM left: 10px;
+    font-size: 2.3rem;
+    margin: 0px;
+    
+}
+.menu{
+    display: flex;
+
+}
+.menu li{
+    
+    margin-left: 10px;
+}
+
+.menu li a {
+    
+    display: block;
+    padding: 10px;
+    left: 15px;
+    
+}
+
+/* CSS flex box*/ 
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.9rem;
+}
+
+h2{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 1.9rem;
+    
+}
+
+.flex-box-room li{
+    
+}
+
+h3{
+    list-style: none;
+    font-family: Arial;
+    text-align: center;
+    display: block;
+    @REM padding: 50px;
+    color: white;
+    margin: 10px;
+    font-size: 0.9rem;
+}
+
+p{
+    @REM text-align: center;
+    margin-top: 50px;
+    font-size: 1.9rem;
+}
+
+.flex{
+    display: block;
+    flex-wrap: wrap;
+    @REM border-width: 0 1%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: white;
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.flex-room{
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    margin: 100px;
+    max-width: 100%;
+    @REM flex-wrap: wrap;
+    @REM @REM border-width: 0 1%;
+    @REM max-width: 90%;
+    @REM margin: 0 auto;
+    @REM padding: 50px;
+    @REM background-color: white;
+}
+.flex-room div{
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+
+.flex-room-cell{
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    margin: 100px;
+    align-items: center;
+    @REM max-width: 100%;
+    font-size: 0.4 rem;
+    @REM align-top: center;
+    @REM flex-wrap: wrap;
+    @REM @REM border-width: 0 1%;
+    @REM max-width: 90%;
+    @REM margin: 0 auto;
+    @REM padding: 50px;
+    @REM background-color: white;
+}
+.flex-room-cell div{
+    
+    padding:20px;
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+
+.flex-box{
+    
+    display: block;
+    max-width: 100%;
+    flex-wrap: wrap;
+    max-width: 1800px;
+    margin: 6px auto;
+    @REM padding: 50px;
+    background-color: white;
+}
+.flex-box img{
+    width: 100%;
+}
+@REM .conteiner-text{
+@REM     position: relative;
+@REM     text-align: center;
+@REM }
+
+@REM .logo{
+@REM     max-width: 15%;
+@REM     display: grid;
+@REM     @REM height: 600px;
+@REM     @REM width: 1000;
+@REM     margin-left: auto;
+@REM     margin-right: auto;
+@REM     width: 90em;
+@REM     @REM box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+@REM }
+
+.boxx p{
+    /* text-align: center; */
+    padding: 100px;
+    margin-top: 10px;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    /* display: flex; */
+    /* margin-left: 160px; */
+    font-size: 1.5rem;
+    @REM min-padding:50px;
+    }
+.boxx{
+    display: block;
+    flex-wrap: wrap;
+}
+.boxx1 p{
+    /* text-align: center; */
+    padding: 100px;
+    margin-top: 10px;
+    margin: 20px auto;
+    @REM text-align: center;
+    /* display: flex; */
+    /* margin-left: 160px; */
+    /* display: contents; */
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+.boxx1{
+    display: block;
+    flex-wrap: wrap;
+}
